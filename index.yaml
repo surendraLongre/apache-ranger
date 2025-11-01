@@ -3,57 +3,20 @@ entries:
   apache-ranger:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2025-09-14T18:30:20.8429811+03:00"
+    created: "2025-11-01T17:58:24.373611+05:30"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 13.2.27
     description: A Helm chart for Apache Ranger
-    digest: 79aa575198eab25759448039a45710a96a6ebfec8d575f9869532b7eecbc4df1
+    digest: ad886fca023a2da3de2209f8d94445ec412d9a835935918531ecccf82a13a33a
+    icon: https://ranger.apache.org/ranger-logo.svg
+    maintainers:
+    - email: 1ahmetfurkandemir@gmail.com
+      name: Ahmet Furkan Demir
     name: apache-ranger
     type: application
     urls:
-    - apache-ranger-0.1.0.tgz
+    - https://raw.githubusercontent.com/surendraLongre/apache-ranger/main/apache-ranger-0.1.0.tgz
     version: 0.1.0
-  postgresql:
-  - annotations:
-      category: Database
-      images: |
-        - name: os-shell
-          image: registry-1.docker.io/bitnami/os-shell
-        - name: postgres-exporter
-          image: registry-1.docker.io/bitnami/postgres-exporter
-        - name: postgresql
-          image: registry-1.docker.io/bitnami/postgresql
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 16.1.0
-    created: "2025-09-14T18:30:20.8452886+03:00"
-    dependencies:
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: PostgreSQL (Postgres) is an open source object-relational database
-      known for reliability and data integrity. ACID-compliant, it supports foreign
-      keys, joins, views, triggers and stored procedures.
-    digest: 9e3ab42d8197aac72722a3557d1f8ed04adc0fd5768e1985569bc73eaddc3b9c
-    home: https://bitnami.com
-    keywords:
-    - postgresql
-    - postgres
-    - database
-    - sql
-    - replication
-    - cluster
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: postgresql
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
-    urls:
-    - charts/postgresql-13.2.27.tgz
-    version: 13.2.27
-generated: "2025-09-14T18:30:20.8391321+03:00"
+generated: "2025-11-01T17:58:24.359103+05:30"
