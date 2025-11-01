@@ -1,0 +1,14 @@
+apiVersion: v2
+appVersion: 2.7.0
+dependencies:
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 13.2.27
+description: A Helm chart for Apache Ranger
+icon: https://ranger.apache.org/ranger-logo.svg
+maintainers:
+- email: 1ahmetfurkandemir@gmail.com
+  name: Ahmet Furkan Demir
+name: apache-ranger
+type: application
+version: 0.1.0
